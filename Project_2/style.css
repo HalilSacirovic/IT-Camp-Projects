@@ -1,0 +1,118 @@
+html {
+    font-family:Arial, Helvetica, sans-serif
+}
+body {
+    background-image: url(../Project_2/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.tabs .tab1 {
+    border: 1px solid black;
+    height: 450px;
+}
+.tabs .tab2 {
+    border: 1px solid black;
+    height: 450px;
+}
+.tabs .tab3 {
+    border: 1px solid black;
+    height: 450px;
+}
+.tabs h4 {
+    color:#c4bfbe ;
+}
+.tabs .p-grey {
+    color: gray;
+}
+
+.tabs .tab1 .num1 {
+    display:flex;
+    border: 1px solid black;
+    background-color: #f0ebeb;
+    background-size: cover;
+    height: 35%;
+    justify-content: center;
+    padding-top:70px;
+    font-size: 30px;
+}
+.tabs .tab2 .num2 {
+    display:flex;
+    border: 1px solid black;
+    background-color:#f0ebeb;
+    background-size: cover;
+    height: 35%;
+    justify-content: center;
+    padding-top:70px;
+    font-size: 30px;
+}
+.tabs .tab3 .num3 {
+    display:flex;
+    border: 1px solid black;
+    background-color: #f0ebeb;
+    background-size: cover;
+    height: 35%;
+    justify-content: center;
+    padding-top:70px;
+    font-size: 30px;
+}
+
+
+.tabs .com-all {
+    display: block;
+   margin-left: 92%;
+   margin-top: -30px;
+   color: #c4bfbe; 
+   font-size: 14px;
+}
+.tabs  .view-oko{
+ display: block;
+ justify-content: flex-end;
+ margin-right: 30px;
+ margin-top: -15px;
+ font-size: 12px;
+ color: #c4bfbe;
+border-right: 2px solid #c4bfbe ;
+margin-left: 72%;
+}
+
+
+.tabs .tab1 .txt1 {
+    padding: 30px;
+    padding-bottom: 6px;
+    background-color: white;
+    background-size: cover;
+    
+    }
+.tabs .tab2 .txt2 {
+    padding: 30px;
+    padding-bottom: 6px;
+    background-color: white;
+    background-size: cover;
+}
+
+.tabs .tab3 .txt3 {
+  padding: 30px;
+  padding-bottom: 6px;
+  background-color: white;
+  background-size: cover;
+}
+
+.tabs .tab1 .txt1 a {
+text-decoration: none;
+color:blue;
+}
+.tabs .tab2 .txt2 a {
+    text-decoration: none;
+    color:blue;
+}
+.tabs .tab3 .txt3 a {
+    text-decoration: none;
+    color:blue;
+}
