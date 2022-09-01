@@ -5,6 +5,84 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
+.section-one {
+    height: 100vh;
+    background-color:  #4877fb;
+    display: flex;
+    flex-direction: column;
+}
+.section-one .pre-header {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-one .pre-header .left-side {
+    display: block;
+    padding-left: 40px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.section-one .pre-header .right-side ul {
+    display: flex;
+   list-style: none;
+   padding-right: 40px;
+}
+.section-one .pre-header .right-side ul li a  {
+    display: block;
+    text-decoration: none;
+    color:white;
+    padding: 15px;
+    font-size: 20px;
+    
+}
+.section-one .main-header {
+    display: flex;
+    flex:7;
+    align-items: center;
+    flex-direction: row;
+
+    
+}
+.section-one .main-header .text {
+    flex:5;
+    margin-left: 100px;
+}
+.section-one .main-header .text h1 {
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+}
+.section-one .main-header .text p {
+    font-size: 20px;
+    color: #d3d3d3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section-one .main-header .text h3  {
+    display: block;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    margin-right:75%;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgba(41, 102, 234, 0.4)   
+}
+.section-one .main-header .text a {
+    text-decoration: none;
+    color:white;
+    
+}
+.section-one .main-header .img  {
+    flex: 2;
+}
+.section-one .main-header .img img {
+    width: 500px;
+    background-color: red;
+    margin-right: 200px;
+}
 
 .section-two {
     background-color: white;
@@ -24,19 +102,38 @@ html {
     width: 300px;
     padding: 20px;
     transition: 0.5s;
+    -webkit-box-shadow: -5px 0px 12px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 0px 12px -3px rgba(0,0,0,0.75);
+box-shadow: -5px 0px 12px -3px rgba(0,0,0,0.75);
+border: 1px solid black;
     
 }
 .section-two .tab1:hover {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px -7px 28px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -7px 28px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px -7px 28px -3px rgba(0,0,0,0.75);
+    
 }
 .section-two .tab2:hover {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 0px -7px 28px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -7px 28px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px -7px 28px -3px rgba(0,0,0,0.75);
 }
 .section-two .tab3:hover {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 0px -7px 28px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -7px 28px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px -7px 28px -3px rgba(0,0,0,0.75);
 }
 .section-two .tab4:hover {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 0px -7px 28px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -7px 28px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px -7px 28px -3px rgba(0,0,0,0.75);
 }
 .section-two .tab2 {
     height: 300px;
@@ -44,6 +141,11 @@ html {
     width: 300px;
     padding: 20px;
     transition: 0.5s;
+    -webkit-box-shadow: -5px 0px 12px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 0px 12px -3px rgba(0,0,0,0.75);
+box-shadow: -5px 0px 12px -3px rgba(0,0,0,0.75);
+border: 1px solid black;
+    border-radius: 5px;
 }
 .section-two .tab3 {
     height: 300px;
@@ -51,6 +153,11 @@ html {
     width: 300px;
     padding: 20px;
     transition: 0.5s;
+    -webkit-box-shadow: -5px 0px 12px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 0px 12px -3px rgba(0,0,0,0.75);
+box-shadow: -5px 0px 12px -3px rgba(0,0,0,0.75);
+border: 1px solid black;
+    border-radius: 5px;
 }
 .section-two .tab4 {
     height: 300px;
@@ -58,6 +165,11 @@ html {
     width:300px;
     padding: 20px;
     transition: 0.5s;
+    -webkit-box-shadow: -5px 0px 12px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 0px 12px -3px rgba(0,0,0,0.75);
+box-shadow: -5px 0px 12px -3px rgba(0,0,0,0.75);
+border: 1px solid black;
+    border-radius: 5px;
 }
 
 .section-two  a .img {
@@ -69,10 +181,13 @@ html {
     margin-top: 70px;
     background-color: #d3d3d3;
 }
-
+.section-two h3 {
+    font-size: 22px;
+}
 .section-two p {
     margin-top: 20px;
     color: #a8a8a8;
+    font-size: 16px;
 }
 .section-two .icons {
     display: block;
