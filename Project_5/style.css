@@ -41,7 +41,7 @@ html {
     text-decoration: none;
     padding-right: 30px;
 }
-ul {
+.section-one ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -100,11 +100,11 @@ ul {
 
 .section-header .left-text {
   flex: 4;
-  margin-left: 300px;
-  margin-bottom: 200px;
+  margin-left: 150px;
+  margin-bottom: 300px;
   color: white;
   width: 200px;
-  height: 200px;
+  height: 350px;
   position: relative;
   animation-name: example;
   animation-duration: 4s;
@@ -213,7 +213,176 @@ css i hmtl jer nsam jos radio JS  */
   margin-bottom: 13px;
  }
 
- .section-headerw .sign-menu-tab #h4-4 {
-  display: block;
-  margin-top:-100px;
+
+ /*OVDE POCINJE FOOTER-SECTION-TWO  */
+ .section-footer .section-two .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+ } 
+ .section-footer .section-two .text h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color:#005371;
  }
+ .section-footer .section-two .text p {
+  margin-top: 40px;
+  width: 580px;
+  text-align: center;
+  color:#6d7673;
+  font-size: 18px;
+ }
+
+footer .section-footer .tabs {
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.section-footer .tabs .tab1 {
+  height: 300px;
+  width: 300px;
+  padding: 30px;
+
+}
+
+.section-footer .tabs .tab2 {
+  height: 300px;
+  width: 300px;
+  padding: 30px;
+
+}
+.section-footer .tabs .tab3{
+  height: 300px;
+  width: 300px;
+  padding: 30px;
+
+}
+
+.section-footer .tabs img {
+  width: 55px;
+  
+}
+.section-footer .tabs .tab-text {
+  color: #00ACEA;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.section-footer .tabs a {
+  text-decoration: none;
+  color:#096D91;
+  font-size: 25px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+.section-footer .tabs a:hover {
+  color: #1E99C6;
+}
+.section-footer .tabs .tab-text-2 {
+  margin-top: 20px;
+  color:#6d7673;
+  font-size: 19px;
+
+}
+
+/* OVDE SE ZAVRSAVA SEKCIJA 2  */
+
+/* --------------------------------- */
+
+/* OVDE POCINJE SEKCIJA 3  */
+
+.section-tree {
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #e4f1ed;
+}
+
+.section-tree .image-side {
+ flex: 1;
+ 
+}
+.section-tree .image-side img {
+  width: 600px;
+  margin-left: 150px;
+}
+.section-tree .image-side p {
+  position: absolute;
+  padding: 40px;
+  margin-left: 35%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-top: -120px;
+  border: 1px solid black;
+  background-color: #005371;
+  font-weight: bold;
+  color: white;
+}
+.section-tree .image-side p span {
+  display: block;
+  font-size: 70px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.section-tree .text-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-tree .text-side h1 {
+  width: 440px;
+  color: #005371;
+}
+.section-tree .text-side p {
+  width: 430px;
+  margin-top: 40px;
+  color: #6d7673;
+  border-bottom: 3px solid #005371;
+  padding-bottom: 20px;
+}
+
+.section-tree .text-side ul{
+list-style: none;
+margin-top: 20px;
+font-size: 20px;
+}
+
+.section-tree .text-side ul li::before {
+  content: "\2022";
+  color: #005371;   
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -5.8em;
+  font-size: 30px;
+}
+
+.section-tree .text-side ul li {
+  color: #05394c;
+}
+
+.section-tree .text-side a {
+  display: block;
+  text-decoration: none;
+  border: 2px solid #005371;
+  padding: 15px 25px ;
+  margin-left: -290px;
+  margin-top: 30px;
+  color: #005371;
+  transition: 0.4s;
+  font-weight: bold;
+}
+
+.section-tree .text-side a:hover {
+  background-color: #005371;
+  color: white;
+  font-weight: bold;
+}
