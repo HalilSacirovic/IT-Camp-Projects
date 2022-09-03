@@ -225,6 +225,9 @@ css i hmtl jer nsam jos radio JS  */
   font-size: 40px;
   font-weight: bold;
   color:#005371;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #005371;
+  border-radius: 10px;
  }
  .section-footer .section-two .text p {
   margin-top: 40px;
@@ -382,6 +385,178 @@ font-size: 20px;
 }
 
 .section-tree .text-side a:hover {
+  background-color: #005371;
+  color: white;
+  font-weight: bold;
+}
+
+/* OVDE SE ZAVRSAVA SEKCIJA 3  */
+/* ----------------------------------- */
+
+/* OVDE POCINJE SEKCIJA 4  */
+
+.section-four .tabs-sec-4 {
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+ .section-four .text_top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+ } 
+ .section-four .text_top h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color:#005371;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #005371;
+  border-radius: 10px;
+ }
+  .section-four .text_top p {
+  margin-top: 40px;
+  width: 580px;
+  text-align: center;
+  color:#6d7673;
+  font-size: 18px;
+ }
+
+
+.section-four .tabs-sec-4 .tab_1 {
+  height: 300px;
+  width: 300px;
+  padding: 30px;
+  text-align: center;
+}
+
+.section-four .tabs-sec-4 .tab_2 {
+  height: 300px;
+  width: 300px;
+  padding: 30px;
+  text-align: center;
+
+}
+.section-four .tabs-sec-4 .tab_3 {
+  height: 300px;
+  width: 300px;
+  padding: 30px;
+  text-align: center;
+}
+.section-four .tabs-sec-4 .tab_4 {
+  height: 300px;
+  width: 300px;
+  padding: 30px;
+  text-align: center;
+
+}
+.section-four .tabs-sec-4 img {
+  display: block;
+  width: 60px;
+  margin-bottom: 20px;
+  margin-left: 120px;
+}
+
+.section-four .tabs-sec-4 a {
+  text-decoration: none;
+  color:#096D91;
+  font-size: 25px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+.section-four .tabs-sec-4 a:hover {
+  color: #1E99C6;
+}
+.section-four .tabs-sec-4 .tab-text-sec4-2 {
+  margin-top: 20px;
+  color:#6d7673;
+  font-size: 19px;
+
+}
+
+/* OVDE SE ZAVRSAVA SEKCIJA 4  */
+
+/* ---------------------------------------------------- */
+
+/*OVDE POCINJE SEKCIJA 5   */
+
+
+.section-five {
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #e4f1ed;
+}
+
+.section-five .image-right-side {
+ flex: 1;
+ 
+}
+.section-five .image-right-side img {
+  width: 600px;
+  margin-left: 150px;
+}
+
+.section-five .left-side-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  word-spacing: 7px;
+}
+
+.section-five .left-side-text h1 {
+  width: 440px;
+  color: #005371;
+  font-size: 35px;
+  font-weight: bold;
+
+}
+.section-five .left-side-text p {
+  width: 430px;
+  margin-top: 25px;
+  color: #6d7673;
+  border-bottom: 3px solid #005371;
+  padding-bottom: 20px;
+}
+
+.section-five .left-side-text  ul{
+list-style: none;
+margin-top: 20px;
+font-size: 20px;
+}
+
+.section-five .left-side-text ul li::before {
+  content: "\2022";
+  color: #005371;   
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -5.8em;
+  font-size: 30px;
+}
+
+.section-five .left-side-text ul li {
+  color: #05394c;
+}
+
+.section-five .left-side-text a {
+  display: block;
+  text-decoration: none;
+  border: 2px solid #005371;
+  padding: 15px 25px ;
+  margin-left: -290px;
+  margin-top: 30px;
+  color: #005371;
+  transition: 0.4s;
+  font-weight: bold;
+}
+
+.section-five .left-side-text a:hover {
   background-color: #005371;
   color: white;
   font-weight: bold;
