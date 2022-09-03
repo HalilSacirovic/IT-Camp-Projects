@@ -561,3 +561,139 @@ font-size: 20px;
   color: white;
   font-weight: bold;
 }
+
+/* OVDE SE ZAVRSAVA SEKCIJA 5  */
+
+/* ---------------------------------- */
+
+/* OVDE POCINJE SEKCIJA 6  */
+
+.section-six {
+  height: 40vh;
+  background-color: #005371;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  animation-name: primer;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+.section-six .textup {
+  flex:3 ;
+}
+.section-six .textup p {
+  width: 1000px;
+  font-size: 22px;
+  margin-top: 80px;
+  word-spacing: 9px;
+  color: white;
+}
+.section-six .profile {
+  flex: 1;
+  display: flex;
+  width: 1000px;
+  margin-bottom: 50px;
+}
+
+
+.section-six .profile .pic img {
+  border-radius: 50%;
+  width: 90px;
+}
+
+.section-six .profile .name-job {
+  padding-top: 20px;
+  padding-left: 25px;
+  color: white;
+}
+
+
+@keyframes primer {
+  0%   {background-color: #005371; left:0px; top:0px;}
+  100%  {background-color: #005371; left:0%; top:0px;}
+  from {
+      margin-left: -500px;
+  }
+to {
+  padding-left:0%;
+}
+}
+
+/* OVDE SE ZAVRSAVA SEKCIJA 6  */
+
+/* ------------------------------ */
+
+/* OVDE POCINJE SEKCIJA 7 */
+
+.section-seven .news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+ } 
+.section-seven .news h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color:#005371;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #005371;
+  border-radius: 10px;
+ }
+
+ .section-seven .tabs-news {
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.section-seven .tabs-news .tab-news-1 {
+  height: 300px;
+  width: 300px;
+  padding: 30px;
+
+}
+
+.section-seven .tabs-news .tab-news-2 {
+  height: 300px;
+  width: 300px;
+  padding: 30px;
+
+}
+.section-seven .tabs-news .tab-news-3{
+  height: 300px;
+  width: 300px;
+  padding: 30px;
+
+}
+
+.section-seven .tabs-news img {
+  width:350px;
+  
+}
+.section-seven .tabs-news .tab-text-up {
+  color: #6d7673;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.section-seven .tabs-news a {
+  text-decoration: none;
+  color:#096D91;
+  font-size: 25px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+.section-seven .tabs-news a:hover {
+  color: #1E99C6;
+}
+.section-seven .tabs-news .tab-text-down {
+  margin-top: 20px;
+  color:#6d7673;
+  font-size: 19px;
+
+}
