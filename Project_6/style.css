@@ -3,12 +3,60 @@
     padding: 0;
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    background-color: black;
+    flex-wrap: wrap;
+    
+
+}
+
+.header .left-side  {
+    display: flex;
+}
+.header .left-side p {
+    color: white;
+    font-size: 21px;
+}
+
+.header .left-side p span {
+    color: orange;
+    font-size: 21px;
+}
+.header .right-side  ul {
+    display: flex ;
+    color:white;
+    list-style: none;
+    
+}
+
+.header .right-side ul li a  {
+    text-decoration: none ;
+    margin-left: 20px ;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.header .right-side .login-register  {
+     color: black;
+     background-color: orange;
+     border: 1px solid orange;
+     border-radius: 25px;
+     padding: 8px 25px;
+     margin-right: 25px;
+}
+
 .carousel-item {
-    height: 100vh;
-    min-height: 320px;
+    height: 90vh;
+    min-height: 350px;
     background: no-repeat scroll center scroll;
     background-size: cover;
-
+  
 }
 
 .carousel-item::before {
@@ -24,6 +72,39 @@ opacity: 0.7;
 }
 
 .carousel-caption {
-    display: flex;
-    flex-wrap: wrap;
+    position: absolute !important;
+    bottom: 25.25rem !important;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left !important;   
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap !important;
+}
+
+.w-100 {
+    width: 100%!important;
+    height: 108%;
+}
+.carousel-caption h5 {
+    font-size: 60px !important;
+    font-weight:400;
+    text-transform: capitalize;
+}
+.carousel-caption p {
+    font-size: 20px;
+}
+
+.carousel-caption h5 span{
+    color:orange
+}
+
+.carousel-caption a {
+   border: 1px solid orange;
+   background-color: orange;
+   color: black;
+   text-decoration: none ;
+   border-radius: 25px;
+   padding: 10px 20px ;
 }
