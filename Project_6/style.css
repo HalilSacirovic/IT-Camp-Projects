@@ -161,7 +161,7 @@ opacity: 0.5;
     z-index: 2;
  }
 
- .section-two .new {
+  .new {
     display: inline-block;
     position: relative;
     margin-top: 28px;
@@ -196,7 +196,7 @@ opacity: 0.5;
     z-index: 3;
  }
 
- .section-two .racing {
+ .racing {
     display: inline-block;
     position: relative;
     margin-top: 28px;
@@ -267,3 +267,243 @@ opacity: 0.5;
 /* ----------------------------- */
 
 /* SECTION 3 START HERE  */
+.section-tree {
+    display: flex;
+    height: 85vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../Project_6/wallpaper-sec3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.recent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    color: white;
+}
+.adventure {
+    display: inline-block;
+    position: relative;
+    margin-top: 28px;
+    margin-left: 29px;
+    background-color: #40abf5;
+    color: white;
+    padding: 5px 25px;
+    font-weight: 500;
+    font-size: 12px ;
+    text-transform: uppercase;
+    z-index: 3;
+ }
+.section-tree .img-up1   {
+    background-image: url(../Project_6/bg_img_tabs/section-tree-img1.jpg);
+    background-size: cover;
+    height: 250px;
+    position: relative;
+    
+  
+}
+.section-tree .img-up2   {
+    background-image: url(../Project_6/bg_img_tabs/section-tree-img2.jpg);
+    background-size: cover;
+    height: 250px;
+    position: relative;
+}
+.section-tree .img-up3   {
+    background-image: url(../Project_6/bg_img_tabs/section-tree-img3.jpg);
+    background-size: cover;
+    height: 250px;
+    position: relative;
+}
+
+.tab-text {
+    padding: 34px 22px 20px ;
+    border: 1px solid #d6dee7;
+    border-top: none;
+    position: relative;
+    background-color: #d6dee7;
+ 
+}
+
+.img-up1::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #000;
+    opacity: .35;
+}
+
+.img-up2::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #000;
+    opacity: .35;
+}
+.img-up3::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #000;
+    opacity: .35;
+}
+.right-bottom-icons {
+    display: flex;
+    justify-content: end;
+    position: relative;
+   
+}
+
+.rgi-star img  {
+    position: absolute; 
+    width: 40px;
+    background-color: orange;
+    padding: 5px;
+    bottom: -21px;
+    right: 17px;
+
+}
+
+.rgi-heart img {
+    position: absolute;
+    width: 40px;
+    background-color: #ff205f;
+    padding: 5px;
+    bottom: -21px;
+    right: -23px;
+}
+
+.tab-text a {
+    color: grey;
+    text-decoration: none;
+}
+
+.tab-text a:hover {
+    color: grey;
+}
+
+
+/* <!-- SECTION 3 END HERE  --> */
+
+/* <!-- --------------------------------------- --> */
+
+/* <!-- SECTION 4 START HERE  --> */
+
+.section-four {
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../Project_6/background-section-four.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-four .title-tournament {
+display: inline-block;
+padding: 7px 25px ;
+font-size: 12px ;
+font-weight: 500;
+color: white;
+text-transform: uppercase;
+background-color: #fb6e10;
+}
+.tournament {
+    display: inline-block;
+    position: relative;
+    background-color: #ffb320;
+    color: black;
+    font-weight: 700;
+    font-size: 12px ;
+    padding: 10px 16px;
+    text-transform: uppercase;
+    z-index: 3;
+ }
+
+ .tournament_tab1 {
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    background-color: #343a40;
+ }
+ .tournament_tab2 {
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    background-color: #343a40;
+ 
+ }
+
+ .info-tournament-1 {
+    padding: 38px 24px ;
+ }
+ .info-tournament-2 {
+    padding: 38px 24px ;
+ }
+ .info-tournament-1  img {
+width: 190px ;
+height: 178px;
+float: left;
+padding-right: 20px;
+
+ }
+
+ .info-tournament-2  img {
+    width: 190px ;
+    height: 178px;
+    float: left;
+    padding-right: 20px;
+   
+}
+.info-tournament-1 h5 {
+    color: #ffb320;
+}
+.info-tournament-1 ul li {
+    list-style: none ;
+    color: white;
+
+}
+    
+.info-tournament-1 ul li span {
+color: #9a9a9a;
+padding-right: 5px;
+}
+
+.info-tournament-1 p span {
+    color:#ffb320 ;
+}
+
+.info-tournament-1 p {
+    color: #9a9a9a;
+}
+.info-tournament-2 h5 {
+    color: #ffb320;
+}
+.info-tournament-2 ul li {
+    list-style: none ;
+    color: white;
+}
+
+.info-tournament-2 ul li span {
+    color: #9a9a9a;
+    padding-right: 5px;
+    }
+    
+    .info-tournament-2 p span {
+        color:#ffb320 ;
+    }
+    
+    .info-tournament-2 p {
+        color: #9a9a9a;
+    }
+
+    
