@@ -261,7 +261,7 @@ opacity: 0.5;
 }
 
 
-/* SECTION 2 END HERE  */
+/* SECTION 2 ENDS HERE  */
 
 
 /* ----------------------------- */
@@ -393,7 +393,7 @@ opacity: 0.5;
 }
 
 
-/* <!-- SECTION 3 END HERE  --> */
+/* <!-- SECTION 3 ENDS HERE  --> */
 
 /* <!-- --------------------------------------- --> */
 
@@ -507,3 +507,119 @@ padding-right: 5px;
     }
 
     
+ /* <!-- SECTION 4 ENDS HERE  -->
+
+<!-- -------------------------------- -->
+
+<!-- SECTION 5 START HERE  --> */
+
+
+.section-five {
+    height: 80vh;
+    background-image: url(../Project_6/section-five-bg.jpg);
+   background-size: cover;
+   background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.review-img-1 {
+    background-image: url(../Project_6/bg_img_tabs/section-five-img1.jpg);
+    height: 370px;
+    background-size: cover;
+    background-position: center;
+}
+.review-tab-1 {
+    background-color: white;
+   
+}
+
+.review-img-2 {
+    background-image: url(../Project_6/bg_img_tabs/section-five-img2.jpg);
+    height: 370px;
+    background-size: cover;
+    background-position: center;
+}
+.review-tab-2 {
+    background-color: white;
+   
+}
+
+.review-img-3 {
+    background-image: url(../Project_6/bg_img_tabs/section-five-img3.jpg);
+    height: 370px;
+    background-size: cover;
+    background-position: center;
+}
+.review-tab-3 {
+    background-color: white;
+    
+}
+
+.review-img-4 {
+    background-image: url(../Project_6/bg_img_tabs/section-five-img4.jpg);
+    height: 370px;
+    background-size: cover;
+    background-position: center;
+}
+.review-tab-4 {
+    background-color: white;
+   
+}
+
+
+.review-text-all {
+   text-align: center;
+   height: 100px;
+}
+.radius-score {
+    position: relative;
+    margin-bottom: 30px;
+}
+.score {
+    position:absolute;
+    width: 54px;
+    height: 54px;
+    top: -27px;
+    left:26px;
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #ffb320;
+    z-index:1
+}
+
+.score-2 {
+    background-color: #694eae;
+}
+
+.score-3 {
+    background-color: #4eae60;
+}
+
+.score-4 {
+    background-color: #ff205f;
+}
+
+#recent-reviews {
+    color: black;
+    font-weight: 600;
+}
+
+.h4-reviews {
+    margin-bottom: 24px;
+}
+
+.review-text-all p {
+    color: #6c757d;
+    margin-bottom: 20px;
+} 
+
+/* <!-- SECTION 5 ENDS HERE  -->
+
+<!-- ------------------------------------ -->
+
+<!-- SECTION 6 START HERE  --> */
