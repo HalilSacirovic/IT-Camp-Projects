@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.info-section {
+    background-color: black;
+    padding: 10px 0;
+}
+
+.info-section .widget ul {
+    padding: 0 ;
+    margin: 0;
+}
+.info-section .widget ul li {
+    display: inline-block;
+    color: #c6c6c6;
+    padding-right: 10px;
+}
+.info-section .widget ul li span {
+    color: white;
+}
+
+.info-section .widget ul li sup {
+    color: white;
+}
+.info-section .widget ul li  a {
+    color: #c6c6c6;
+    text-decoration: none;
+}
+
+.info-section .widget ul li i {
+    color: white;
+}
+
+
+
+.info-section .social-media {
+    text-align: right;
+    
+}
+
+.info-section .social-media a {
+    color: white;
+    padding-left: 10px;
+}
+
+/* INFO SECTION  HERE  */
+
+/* SECTION LOGO START HERE  */
+
+.section-logo {
+    background-color: #0d0d0d;
+    height: 20vh;
+}
+
+.section-logo .logo  {
+    text-align: center !important;
+}
+
+.section-logo .logo a {
+    font-size: 65px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+ /*SECTION LOGO ENDS HERE  */ 
+
+ .section-nav-bar {
+    padding: 10px 0;
+    background-color: #9e0303;
+    display: block;
+ }
+.section-nav-bar .nav-left-side {
+    font-size: 15px;
+    color: #fff;
+    background: #a81d1d;
+    float: left;
+    padding: 15px 28px;
+   transform: skewX(-15deg);
+    cursor: pointer;
+    display: inline-block;
+}
+.section-nav-bar .nav-left-side a {
+    color: white;
+}
+.section-nav-bar .nav-search a {
+    color: white;
+}
+.section-nav-bar .nav-search {
+    font-size: 15px;
+    color: #fff;
+    background: #a81d1d;
+    float: right;
+    padding: 15px 28px;
+    transform: skewX(-15deg);
+    cursor: pointer;
+    display: inline-block;
+}
+.section-nav-bar .nav-menu  ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+ .section-nav-bar .nav-menu ul  li {
+    display: inline-block;
+ }
+
+ .section-nav-bar .nav-menu ul .nav-li a {
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    background: #a81d1d;
+    padding: 17px 15px 13px 30px;
+    transform: skewX(-15deg);
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.section-nav-bar .nav-menu ul .nav-li a:hover {
+background-color: #c20000;
+transition: 0.5s;
+}
+.section-nav-bar .nav-menu ul .nav-li a i {
+    font-size: 10px;
+}
+
+/* PLATFORM DROPDOWN BUTTON WITH CAROUSEL */
+
+.section-nav-bar .dropbtn {
+    background-color: #c20000;
+    color: white;
+    padding: 16px;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    color: #fff;
+    background: #a81d1d;
+    padding: 17px 15px 13px 30px;
+    transform: skewX(-15deg);
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .section-nav-bar .dropbtn i {
+    font-size: 10px;
+  }
+  
+  .section-nav-bar .dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+  }
+  
+  .section-nav-bar .dropdown-content {
+    display: none;
+    position:absolute;
+    background-color: #f9f9f9;
+    width:1000px;
+    height: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: -300px;
+  }
+  
+
+  
+  .section-nav-bar .dropdown:hover  .dropdown-content {
+    display: block;
+    background-color: black;
+    text-align: left;
+  }
+
+  .section-nav-bar .dropdown:hover  .dropdown-content  .platform-content ul {
+    text-align: left;
+    margin-left: 10px;
+    padding-left: 15px;
+  }
+  .section-nav-bar .dropdown:hover  .dropdown-content  .platform-content ul  li span {
+   font-weight: 600;
+   padding-left: 7px;
+   padding-right: 7px;
+  }
+  .section-nav-bar .dropdown  .dropdown-content li a  {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+.section-nav-bar .dropdown:hover  .dropdown-content  .platform-content ul  li a:hover {
+    color: #c20000;
+}
+  
+  .section-nav-bar .dropdown:hover .dropbtn {
+    background-color: #c20000;
+    
+  }
+
+  .section-nav-bar .dropdown .dropbtn  {
+    transition: 0.6s;
+  }
+
+  /* DropDOWN PLATFROM CONTENT END HERE */
+
+
+  /* PLATFORM-ITEMS  */
+  .section-nav-bar .dropdown .dropdown-content .items {
+    margin:20px;
+  }
+
+.section-nav-bar .dropdown .dropdown-content .items  h6 a { 
+    font-size: 15px;
+    display: block;
+    margin-top: 20px;
+    font-weight: 70;
+    color: #ffffff;
+    text-transform: uppercase;
+    background: transparent;
+    padding: 0;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.section-nav-bar .dropdown .dropdown-content .items span {
+    color: #c6c6c6;
+}
+.section-nav-bar .dropdown .dropdown-content .items .img img {
+  width: 200px;
+  }
