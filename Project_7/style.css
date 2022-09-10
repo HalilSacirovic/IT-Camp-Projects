@@ -101,6 +101,7 @@
 .section-nav-bar .nav-menu  ul {
     padding: 0;
     margin: 0;
+    margin-bottom: 10px;
     text-align: center;
 }
  .section-nav-bar .nav-menu ul  li {
@@ -230,3 +231,198 @@ transition: 0.5s;
 .section-nav-bar .dropdown .dropdown-content .items .img img {
   width: 200px;
   }
+
+
+  /* SECTION ONE START HERE */
+
+
+.section-one.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background-size: cover;
+  
+}
+
+.section-one .carousel-item::before {
+   content: "";
+display: block;
+position: absolute;
+bottom: 0;
+right: 0;
+top: 0;
+left: 0;
+background-color: black;
+opacity: 0.5;
+}
+
+
+.section-one .carousel-caption {
+    position: absolute !important;
+    bottom: 20.25rem !important;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left !important;   
+}
+
+.section-one .w-100 {
+    width: 100%!important;
+    height: 108%;
+}
+.section-one .text {
+    padding-top: 120px;
+    margin-bottom: 10px;
+
+}
+.section-one .playstation {
+    display: inline-block;
+    padding: 4px 7px 4px 12px;
+    background: rgba(194, 0, 0, 0.3);
+    -webkit-transform: skewX(-15deg);
+    -ms-transform: skewX(-15deg);
+    transform: skewX(-15deg);
+}
+
+.section-one .playstation {
+    display: inline-block;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.section-one .text-down h3  {
+    color: #ffffff;
+    line-height: 42px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    width: 580px;
+
+}
+
+.section-one .circle-picture img {
+    border-radius: 50%;
+    width: 45px;
+}
+
+.section-one .circle-picture span {
+    color: #c6c6c6;
+}
+
+.section-one .carousel-sliding-tabs {
+    position: absolute;
+    width: 400px;
+   height: 155%;
+   background-color: black;
+}
+
+.section-one .section-carousel .w-100 {
+width: 130%!important;
+height: 108%;
+
+}
+.section-one .section-carousel .mini-carousel-items .mini-carousel-item-1{
+margin-bottom: 40px;
+padding: 15px;
+
+}
+.section-one .section-carousel .mini-carousel-items .mini-carousel-item-1 img {
+    width: 120px;
+    float: left;
+    padding-right: 13px;
+}
+
+.section-one .section-carousel .mini-carousel-items .mini-carousel-item-1 h5 a {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 20px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+.section-one .section-carousel .mini-carousel-items .mini-carousel-item-1 span {
+    font-size: 12px;
+}
+.section-one .section-carousel .mini-carousel-items .mini-carousel-item-2{
+margin-bottom: 40px;
+padding: 15px;
+
+}
+.section-one .section-carousel .mini-carousel-items .mini-carousel-item-2 img {
+    width: 120px;
+    float: left;
+    padding-right: 13px;
+}
+
+.section-one .section-carousel .mini-carousel-items .mini-carousel-item-2 h5 a {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 20px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+.section-one .section-carousel .mini-carousel-items .mini-carousel-item-2 span {
+    font-size: 12px;
+}
+.section-one .section-carousel .mini-carousel-items .mini-carousel-item-3{
+margin-bottom: 40px;
+padding: 15px;
+
+}
+.section-one .section-carousel .mini-carousel-items .mini-carousel-item-3 img {
+    width: 120px;
+    float: left;
+    padding-right: 13px;
+}
+
+.section-one .section-carousel .mini-carousel-items .mini-carousel-item-3 h5 a {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 20px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+.section-one .section-carousel .mini-carousel-items .mini-carousel-item-3 span {
+    font-size: 12px;
+}
+.section-one .section-carousel .mini-carousel-items .mini-carousel-item-4{
+margin-bottom: 40px;
+padding: 15px;
+
+}
+.section-one .section-carousel .mini-carousel-items .mini-carousel-item-4 img {
+    width: 120px;
+    float: left;
+    padding-right: 13px;
+}
+
+.section-one .section-carousel .mini-carousel-items .mini-carousel-item-4 h5 a {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 20px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+.section-one .section-carousel .mini-carousel-items .mini-carousel-item-4 span {
+    font-size: 12px;
+}
+
