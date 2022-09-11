@@ -524,7 +524,9 @@ padding: 15px;
     border-left: none;
     padding: 8px;
 } 
-
+.section-two .carousel-item {
+transition: transform 1.4s ease-in-out !important;
+}
 .section-two .preview-tabs .bg-img3 {
     background-image: url(../Project_7/tab-images/sec2-img3.jpg);
     background-size: cover;
