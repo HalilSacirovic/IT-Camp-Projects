@@ -362,6 +362,19 @@ padding: 15px;
     transition: all 0.3s;
     text-decoration: none;
 }
+.section-one .section-carousel .mini-carousel-items .mini-carousel-item-1 h5 a:hover{
+color: #c20000;
+}
+.section-one .section-carousel .mini-carousel-items .mini-carousel-item-2 h5 a:hover{
+color: #c20000;
+}
+.section-one .section-carousel .mini-carousel-items .mini-carousel-item-3 h5 a:hover{
+color: #c20000;
+}
+.section-one .section-carousel .mini-carousel-items .mini-carousel-item-4 h5 a:hover{
+color: #c20000;
+}
+
 .section-one .section-carousel .mini-carousel-items .mini-carousel-item-1 span {
     font-size: 12px;
 }
@@ -925,4 +938,239 @@ transition: transform 1.4s ease-in-out !important;
 
 .section-tree .carousel-item {
     transition: 1.8s ease-in-out !important ;
+}
+
+/* SOCIAL MEDIA SIDE  */
+
+
+.section-tree .social-media-title h5 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: italic;
+    padding-left: 16px;
+    position: relative;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.section-tree .social-media-title h5::before {
+    content: "";
+    position: absolute;
+    border: 1px solid #c20000;
+    transform: skewX(-15deg);
+    top: 9px;
+    left: 5px;
+    height: 15px;
+    width: 11px;
+    background-color: #c20000;
+    margin-left: 24px;
+}
+
+.section-tree .section-social-media .social-media-title ul li {
+    border: 1px solid #222222;
+    font-size: 14px;
+    color: #ffffff;
+    list-style: none;
+    height: 46px;
+    width: 350px;
+    line-height: 46px;
+    -webkit-transform: skewX(-15deg);
+    -ms-transform: skewX(-15deg);
+    transform: skewX(-15deg);
+    padding: 0 18px 0 0;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-bottom: 15px;
+}
+
+.section-tree .section-social-media .social-media-title ul li span  {
+    display: inline-block;
+    transform: skewX(15deg);
+
+}
+
+.section-tree .section-social-media ul li .social-icon {
+    display: inline-block;
+    padding: 0 20px 0 18px;
+    background: #252525;
+    height: 45px;
+    margin-right: 10px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    
+}
+
+.section-tree .section-social-media ul li .social-icon  i {
+    transform: skewX(15deg);
+}
+
+.section-tree .section-social-media  ul li .social-follower {
+    display: inline-block;
+    -webkit-transform: skewX(15deg);
+    -ms-transform: skewX(15deg);
+    transform: skewX(15deg);
+    float: right;
+}
+
+
+.section-tree .section-social-media ul li .social-icon:hover {
+    background-color: #10c8e8;
+
+}
+
+
+.section-tree .carousel-sliding-tabs {
+    position: absolute;
+    width: 400px;
+   height: px;
+   background-color: black;
+}
+
+.section-tree .carousel-sliding-tabs .title h5 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: italic;
+    padding-left: 16px;
+    position: relative;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.section-tree .carousel-sliding-tabs .title h5::before {
+    content: "";
+    position: absolute;
+    border: 1px solid #c20000;
+    transform: skewX(-15deg);
+    top: 9px;
+    left: 5px;
+    height: 15px;
+    width: 11px;
+    background-color: #c20000;
+
+}
+.section-tree .section-carousel .mini-carousel-items .mini-carousel-item-1{
+margin-bottom: 5px;
+padding: 15px;
+
+}
+.section-tree .section-carousel .mini-carousel-items .mini-carousel-item-1 img {
+    width: 130px;
+    float: left;
+    padding-right: 13px;
+}
+
+.section-tree .section-carousel .mini-carousel-items .mini-carousel-item-1 h5 a {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 20px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.section-tree .section-carousel .mini-carousel-items .mini-carousel-item-1 h5 a:hover {
+    color: #c20000;
+}
+.section-tree .section-carousel .mini-carousel-items .mini-carousel-item-2 h5 a:hover {
+    color: #c20000;
+}
+.section-tree .section-carousel .mini-carousel-items .mini-carousel-item-3 h5 a:hover {
+    color: #c20000;
+}
+.section-tree .section-carousel .mini-carousel-items .mini-carousel-item-4 h5 a:hover {
+    color: #c20000;
+}
+.section-tree .section-carousel .mini-carousel-items .mini-carousel-item-1 span {
+    font-size: 12px;
+    color: #c6c6c6;
+}
+.section-tree .section-carousel .mini-carousel-items .mini-carousel-item-2{
+    margin-bottom: 5px;
+padding: 15px;
+
+}
+.section-tree .section-carousel .mini-carousel-items .mini-carousel-item-2 img {
+    width: 130px;
+    float: left;
+    padding-right: 13px;
+}
+
+.section-tree .section-carousel .mini-carousel-items .mini-carousel-item-2 h5 a {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 20px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+.section-tree .section-carousel .mini-carousel-items .mini-carousel-item-2 span {
+    font-size: 12px;
+    color: #c6c6c6;
+}
+.section-tree .section-carousel .mini-carousel-items .mini-carousel-item-3{
+    margin-bottom: 5px;
+padding: 15px;
+
+}
+.section-tree .section-carousel .mini-carousel-items .mini-carousel-item-3 img {
+    width: 130px;
+    float: left;
+    padding-right: 13px;
+}
+
+.section-tree .section-carousel .mini-carousel-items .mini-carousel-item-3 h5 a {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 20px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+.section-tree .section-carousel .mini-carousel-items .mini-carousel-item-3 span {
+    font-size: 12px;
+    color: #c6c6c6;
+}
+.section-tree .section-carousel .mini-carousel-items .mini-carousel-item-4{
+    margin-bottom: 5px;
+padding: 15px;
+
+}
+.section-tree .section-carousel .mini-carousel-items .mini-carousel-item-4 img {
+    width: 130px;
+    float: left;
+    padding-right: 13px;
+}
+
+.section-tree .section-carousel .mini-carousel-items .mini-carousel-item-4 h5 a {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 20px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+.section-tree .section-carousel .mini-carousel-items .mini-carousel-item-4 span {
+    font-size: 12px;
+    color: #c6c6c6;
 }
