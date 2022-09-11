@@ -154,7 +154,7 @@ transition: 0.5s;
   .section-nav-bar .dropdown {
     position: relative;
     display: inline-block;
-    z-index: 1;
+    z-index: 3;
   }
   
   .section-nav-bar .dropdown-content {
@@ -687,3 +687,242 @@ transition: transform 1.4s ease-in-out !important;
     border-left: none;
     padding: 8px;
 } 
+
+/* SECTION 2 ENDS HERE  */
+
+
+/* ================== */
+
+/* SECTION 3 START HERE  */
+
+
+.section-tree {
+    padding-top: 65px;
+    padding-bottom: 35px;
+    background-color: black;
+}
+
+.section-tree .news-update-header h5 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: italic;
+    padding-left: 16px;
+    position: relative;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.section-tree .news-update-header h5::before {
+    content: "";
+    position: absolute;
+    border: 1px solid #c20000;
+    transform: skewX(-15deg);
+    top: 9px;
+    left: 5px;
+    height: 15px;
+    width: 11px;
+    background-color: #c20000;
+}
+.section-tree .news-update-header {
+    position: relative;
+}
+
+.section-tree .news-update-header ul  {
+    border: none;
+    position: absolute;
+    right: 90px;
+    top: 0px;
+    
+}
+
+.section-tree .news-update-header ul li {
+    display:inline-block;
+    padding-right: 10px;
+}
+
+.section-tree .news-update-header ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #c4c4c4;
+    letter-spacing: 1px;
+    border: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding: 0;
+    transition: 0.5s;
+}
+.section-tree .news-update-header ul li a:hover {
+    color: #c20000;
+}
+
+.section-tree .news-update-carousel-games  .big-img {
+    background-image: url(../Project_7/tab-images/section-tree-bigimg1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 500px;
+  
+    
+}
+
+.section-tree .news-update-carousel-games  .big-img .img-text {
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+    width: 100%;
+    padding: 0 30px ;
+}
+.section-tree .news-update-carousel-games  .big-img .img-text h5 a {
+   color: #ffffff;
+    line-height: 28px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.section-tree .reviews {
+    display: inline-block;
+    padding: 4px 7px 4px 12px;
+    background: rgba(194, 0, 0, 0.6);
+    transform: skewX(-15deg);
+    display: inline-block;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+
+.section-tree .news-update-carousel-games  .big-img .img-text  span {
+    color: #c6c6c6;
+}
+
+
+.section-tree .news-update-carousel-games  .big-img .img-text #admin {
+    color: #c20000;
+}
+
+.section-tree .news-update-carousel-games .small-imgs .mini-img-1 {
+    height: 150px;
+    position: relative;
+    background-image: url(../Project_7/tab-images/sec2-img2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+}
+
+.section-tree  .news-update-carousel-games .small-imgs .reviews {
+    display: inline-block;
+    padding: 2px 7px 2px 12px;
+    background: rgba(194, 0, 0, 0.5);
+    -webkit-transform: skewX(-15deg);
+    -ms-transform: skewX(-15deg);
+    transform: skewX(-15deg);
+    position: absolute;
+    left: 12px;
+    bottom: 10px;
+   
+}
+
+.section-tree  .news-update-carousel-games .small-imgs .mini-text h6 a {
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.section-tree  .news-update-carousel-games .small-imgs .mini-text span {
+    color: #c6c6c6;
+    font-size: 12px;
+}
+
+.section-tree .news-update-carousel-games .small-imgs .mini-img-2 {
+    height: 150px;
+    position: relative;
+    background-image: url(../Project_7/tab-images/sec2-img4.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+}
+
+.section-tree .news-update-carousel-games .small-imgs .mini-img-3 {
+    height: 150px;
+    position: relative;
+    background-image: url(../Project_7/tab-images/sec2-img1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+}
+
+.section-tree .news-update-carousel-games .small-imgs .mini-img-4 {
+    height: 150px;
+    position: relative;
+    background-image: url(../Project_7/tab-images/platform-dropdown-img-4.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+}
+
+.section-tree .news-update-carousel-games .small-imgs .mini-img-5 {
+    height: 150px;
+    position: relative;
+    background-image: url(../Project_7/tab-images/platform-dropdown-img-1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+}
+
+.section-tree .news-update-carousel-games .small-imgs .mini-img-6 {
+    height: 150px;
+    position: relative;
+    background-image: url(./tab-images/platform-dropdown-img-3.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+}
+
+.section-tree .news-update-carousel-games  .big-img2 {
+    background-image: url(../Project_7/tab-images/platform-dropdown-img-2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 500px;
+  
+    
+}
+
+.section-tree .news-update-carousel-games  .big-img2 .img-text  span {
+    color: #c6c6c6;
+}
+
+
+.section-tree .news-update-carousel-games  .big-img2 .img-text #admin {
+    color: #c20000;
+}
+
+.section-tree .news-update-carousel-games  .big-img2 .img-text {
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+    width: 100%;
+    padding: 0 30px ;
+}
+.section-tree .news-update-carousel-games  .big-img2 .img-text h5 a {
+   color: #ffffff;
+    line-height: 28px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.section-tree .carousel-item {
+    transition: 1.8s ease-in-out !important ;
+}
